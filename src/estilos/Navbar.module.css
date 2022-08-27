@@ -1,0 +1,44 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.774);
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    position: fixed;
+}
+
+.contenidoheader{
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.loguis{
+    color: white;
+    font-weight: 600;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    font-weight: 800;
+    text-transform: capitalize;
+  
+}
+
+.items{
+    padding-left: 15px;
+    margin-right: 15px;
+}
+
+.items:not(:first-child){
+    border-left: 1px solid white;
+}
+

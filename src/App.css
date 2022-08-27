@@ -1,3 +1,9 @@
+:root{
+  --dark: black;
+  --delay: .5s;
+  --duration: 1s;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #0000003f;       /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* background-color: rgba(72, 39, 113, 0.486);    color of the scroll thumb */
+     /* roundness of the scroll thumb */
+  /* border: 3px solid #3e2261;  creates padding around scroll thumb */
+  background: linear-gradient(
+    to bottom,
+    #a4a0d4,
+    #482771
+  );
+  border-radius:20px
 }

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.iconosredes{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icono{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 100px;
+    margin:7px;
+    box-shadow: 1px 1px 7px rgb(10, 10, 10);
+    transition: .5s;
+}
+
+.icono:hover{
+    transform: scale(1.1);
+}
+
+.container p{
+    color:white;
+}
+
