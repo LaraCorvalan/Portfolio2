@@ -6,6 +6,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Goodbye from './components/Goodbye';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
       </section >
       <section id="sobremi">
         <About />
+      </section>
+      <section id="skills">
+        <Skills />
       </section>
       <section id="contacto">
         <Contact />
