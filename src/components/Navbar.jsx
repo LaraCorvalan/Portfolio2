@@ -35,7 +35,7 @@ export default function Navbar() {
                                 <a href="#sobremi">{t('about me').toLocaleUpperCase()}</a>
                             </li>
                             <li className={s.items}>
-                                <a href="#skills">{t('my skills').toLocaleUpperCase()}</a>
+                                <a href="#skills">{t('skills').toLocaleUpperCase()}</a>
                             </li>
                             <li className={s.items}>
                                 <a href="#portfolio">PORTFOLIO</a>

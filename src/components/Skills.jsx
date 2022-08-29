@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
@@ -8,11 +9,13 @@ import 'swiper/css/scrollbar';
 import s from '../estilos/Skills.module.css'
 
 export default function Skills() {
+    const { t } = useTranslation()
+
     return (
-        <div style={{paddingTop:'40px'}}>
+        <div style={{ paddingTop: '40px' }}>
             <div className={s.superSwiper}>
                 <div className={s.titulo}>
-                    <p className={s.title}>MY SKILLS</p>
+                    <p className={s.title}>{t('my skills').toUpperCase()}</p>
                 </div>
                 <div className={s.swiperContainer}>
                     <Swiper
@@ -33,7 +36,7 @@ export default function Skills() {
                             <img style={{ width: '100px', marginLeft: '50px' }} src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
-                            <img style={{ width: '100px', marginLeft: '50px' }} src="https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png" alt="" />
+                            <img style={{ width: '110px', marginLeft: '50px' }} src="http://stackyourprops.com/static/redux.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
                             <img style={{ width: '100px', marginLeft: '50px' }} src="https://cdn-icons-png.flaticon.com/512/174/174854.png" alt="" />
@@ -48,7 +51,7 @@ export default function Skills() {
                             <img style={{ width: '230px', marginLeft: '50px' }} src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
-                            <img style={{ width: '100px', marginLeft: '70px' }} src="https://assets.stickpng.com/images/58482ee4cef1014c0b5e4a75.png" alt="" />
+                            <img style={{ width: '100px', marginLeft: '70px' }} src="https://khalilstemmler.com/img/blog/sequelize/banner.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
                             <img style={{ width: '100px', marginLeft: '50px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" alt="" />
@@ -64,7 +67,7 @@ export default function Skills() {
             </div>
             <div className={s.superSwiper}>
                 <div className={s.titulo}>
-                    <p className={s.title}>CURRENTLY LEARNING</p>
+                    <p className={s.title}>{t('currently').toUpperCase()}</p>
                 </div>
                 <div className={s.swiperContainer}>
                     <Swiper
@@ -79,16 +82,16 @@ export default function Skills() {
                         className={s.swiper}
                     >
                         <SwiperSlide className={s.swiperContent}>
-                            <img style={{ width: '100px' }} src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="" />
+                            <img style={{ width: '100px', marginLeft: '50px' }} src="https://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
-                            <img style={{ width: '150px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/2560px-Django_logo.svg.png" alt="" />
+                            <img style={{ width: '150px', marginTop:'30px', marginLeft: '50px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/2560px-Django_logo.svg.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
-                            <img style={{ width: '100px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" alt="" />
+                            <img style={{ width: '100px' , marginLeft: '50px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" alt="" />
                         </SwiperSlide>
                         <SwiperSlide className={s.swiperContent}>
-                            <img style={{ width: '100px' }} src="https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png" alt="" />
+                            <img style={{ width: '100px', marginLeft: '50px' }} src="https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png" alt="" />
                         </SwiperSlide>
                     </Swiper>
                 </div>

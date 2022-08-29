@@ -7,6 +7,7 @@ import Contact from './components/Contact';
 import Goodbye from './components/Goodbye';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
+import Portfolio from './components/Projects';
 
 function App() {
 
@@ -23,12 +24,16 @@ function App() {
       <section id="skills">
         <Skills />
       </section>
+      <section id="portfolio">
+        <Portfolio />
+      </section>
       <section id="contacto">
         <Contact />
       </section>
       <section id="goodbye">
         <Goodbye />
       </section>
+      
     <footer>
       <Footer/>
     </footer>

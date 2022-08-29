@@ -17,9 +17,11 @@
         "about me": "About me",
         "download":"Download CV", 
         "home":"Home", 
-        "my skills":"Skills",
+        "my skills":"My skills",
+        "skills":"skills",
+
         "my projects":"My Projects",
-        "get in touch":"Get in touch",
+        "get in touch":"Get in touch!",
         "contactme":"contact me",
         "education":"Academic Formation",
     "school":"HIGH SCHOOL LEVEL",
@@ -35,7 +37,7 @@
         "level2":"Beginner",
         "lang3":"Spanish",
         "level3":"Native",
-    "rights":"All rights reserved - 2022",
+        "rights":"All rights reserved - 2022",
         "experience":" My experience has been, mostly, academic. However, I've worked in fields related to customer support and teaching English to kids and adults. This has given me the opportunity to develop some skills such as acting eficiently when a problem comes up, my ability to listen and understand the other, etc.",
         "finishedHenry": " I have recently finished Henry Bootcamp, where I had the chance to exercise my technical capabilities and, above all, my social skills as a developer.",
         "formation": " Full Stack Developer | 2022 | SoyHenry Bootcamp",
@@ -50,5 +52,8 @@
         "gameflix": "Gameflix | 2022 | SoyHenry Bootcamp",
         "gameflixDescription": "GameFlix consumes data from RAWG API and a local database. It allows you to search by name, filter by gender and origin, and sort by alphabetical order and ranking and even create your own videogame. By clicking each videogame, you can see more information such as its release date and a brief description of the selected game.",
         "send":"Send", 
-        "languages": "Languages"
+        "languages": "Languages", 
+        "currently": "currently learning",
+        "falta1": "Court rental app"
+        
 }

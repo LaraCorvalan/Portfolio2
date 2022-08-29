@@ -20,8 +20,9 @@
         "home":"Inicio", 
         "contactme":"Contacto",
         "my skills":"Tecnologías",
+        "skills":"Tecnologías",
         "my projects":"Mis proyectos",
-    "get in touch":"Ponerse en contacto",
+    "get in touch":"Contactame!",
         "education":"Formación académica",
     "school":"Nivel secundario",
     "bachelor":"Bachillerato en ciencias sociales.",
@@ -51,6 +52,8 @@
         "gameflix": "Gameflix | 2022 | SoyHenry Bootcamp",
         "gameflixDescription": "GameFlix consume data de la API RAWG y de una base de datos local. Esta SPA permite crear tu propio videojuego, buscar juegos por nombre, filtrar por generos y origen (API o creados por el usuario), y ordenar la busqueda alfabeticamente y por ranking.", 
         "send":"Enviar", 
-        "languages": "Idiomas"
+        "languages": "Idiomas", 
+        "currently": "actualmente aprendiendo",
+        "falta1":"App de alquiler de canchas"
 
 }
